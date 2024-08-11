@@ -1,4 +1,7 @@
 class ReverseNum{
+
+//file name is ReverseNum.java
+
     public static void main(String[] args) {
         int number = 4321;
         String s = "";
