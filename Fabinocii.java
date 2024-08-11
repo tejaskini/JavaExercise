@@ -1,4 +1,5 @@
-class Fabinocci {
+class Fibonacci {
+// sorry for spell mistake 
     public static void main(String[] args) {
         
         // fabinocii series upto 15
