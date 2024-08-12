@@ -1,12 +1,8 @@
-//package com.tejas.collections.Exercise;
-//Run : open cmd : javac AnagramRunner.java
-//					java AnagramRunner
-
 import java.util.Arrays;
 
-public class AnagramRunner {
+public class Anagram {
 
-	public static String areAnagram(String str1, String str2) {
+	public String areAnagram(String str1, String str2) {
 
 		if (str1 == null || str2 == null) {
 			return "String is null!";
@@ -31,6 +27,10 @@ public class AnagramRunner {
 		return "String are not Anagram";
 	}
 
+}
+
+public class AnagramRunner {
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
@@ -40,8 +40,8 @@ public class AnagramRunner {
 		 * another word Listen and silent - is anagram
 		 */
 
-//		Anagram an = new Anagram();
-		System.out.println(areAnagram("Hello", "elloh"));
+		Anagram an = new Anagram();
+		System.out.println(an.areAnagram("Hello", "elloh"));
 	}
 
 }
