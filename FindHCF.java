@@ -28,3 +28,5 @@ class FindHCF {
       System.out.println("HCF of "+ num1 + " & " + num2 + " is " + hcf);
     }
 }
+
+//output : HCF of 18 & 27 is 9
