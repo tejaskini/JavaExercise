@@ -39,3 +39,9 @@ public class EncapsulationInJava{
         p.getAge();
     }
 }
+
+/*
+output
+Java Coding
+24
+*/
