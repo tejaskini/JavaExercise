@@ -25,7 +25,7 @@ class Filter {
             );
 
   // Basic method to print even numbers
-  for(int i=0 i<numList.length; i++){
+  for(int i=0 i<numList.size(); i++){
     if(i %2 ==0)
     {
       System.out.print(i);
