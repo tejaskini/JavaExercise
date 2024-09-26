@@ -50,6 +50,7 @@ public class CollectionHierarchy {
 
 		Set s1 = new HashSet();
 		Set s2 = new LinkedHashSet();
+		Set s5 = new TreeSet()
 		SortedSet s3 = new TreeSet();
 		NavigableSet s4 = new TreeSet();
 
