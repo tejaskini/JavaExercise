@@ -22,6 +22,7 @@ public class List_1 {
 		list.add(null);
 		System.out.println(list);
 
+		// set
 		Set set = new HashSet();
 		set.add(100);
 		set.add(200);
@@ -29,16 +30,22 @@ public class List_1 {
 		set.add(55);
 		set.add(null); // only one null elements stores
 		set.add(null);
-		System.out.println(set);
-		
-		System.out.println("------------------");
+
+
+
+		System.out.println("--------Iterator FD for set----------");
 		// for set
 
 		Iterator itr1 = set.iterator();
 		while (itr1.hasNext()) {
 			System.out.println(itr1.next());
 		}
-		System.out.println("------------------");
+
+		// we can remove also
+		set.remove(800);
+		System.out.println(set);
+
+		System.out.println("---------Iterator FD for List--------");
 
 		// for list
 		// 1. using Iterator()
@@ -47,13 +54,28 @@ public class List_1 {
 			System.out.println(itr.next());
 		}
 
+
+		System.out.println("---------ListIterator FD for List--------");
+
+
 		// 2. using ListIterator
 		ListIterator litr = list.listIterator();
+		// forward elements
 		while (litr.hasNext())
 
 		{
 			System.out.println(litr.next());
 		}
+
+		System.out.println("--------ListIterator BD for List----------");
+		// previous elements
+		while (litr.hasPrevious()) {
+			System.out.println(litr.previous());
+		}
+
+		// we can also remove elements
+		list.remove(null);
+		System.out.println(list);
 
 
 	}
