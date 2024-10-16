@@ -1,1 +1,8 @@
 
+Enter the Loan Amount for approval:
+550000
+Checking civil score for high loan amount...
+Enter Your civil score!
+756
+Your are eligible for the loan !
+Loan approval process completed.
